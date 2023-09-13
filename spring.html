@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+            color: aliceblue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 200px;
+            transform: rotateX(60deg);
+        }
+
+        .circle {
+            border-radius: 500px;
+            border: 2px blue solid;
+            padding: 15px;
+            width: fit-content;
+            height: fit-content;
+            transform: translateZ(-100px);
+            animation-name: circle;
+            animation-duration: 5s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            transition-timing-function: ease-in-out;
+            position: relative;
+        }
+
+        .center {
+            padding: 10px;
+            width: 60px;
+            height: 60px;
+            background-color: rgb(0, 255, 229);
+            border-radius: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .circle1 {
+            border-radius: 500px;
+            border: 2px red solid;
+            padding: 15px;
+            width: fit-content;
+            height: fit-content;
+            animation-name: circle1;
+            animation-duration: 5s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            transition-timing-function: ease-in-out;
+            position: relative;
+        }
+
+        .circle2 {
+            border-radius: 500px;
+            border: 2px green solid;
+            padding: 15px;
+            width: fit-content;
+            height: fit-content;
+            position: relative;
+            animation-name: circle2;
+            animation-duration: 5s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            transition-timing-function: ease-in-out;
+        }
+        @keyframes circle{
+            0%,100%{
+                bottom: 0px;
+            }
+            50%{
+                bottom: 100px;
+            }
+        }
+        @keyframes circle1{
+            0%,100%{
+                bottom: 0px;
+            }
+            50%{
+                bottom: 100px;
+            }
+        }
+        @keyframes circle2{
+            0%,100%{
+                bottom: 0px;
+            }
+            50%{
+                bottom: 100px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+ <div class="circle">
+<div class="circle1">
+ <div class="circle2">
+ <div class="circle">
+ <div class="circle1">
+ <div class="circle2">`
+<div class="circle">
+<div class="circle1">
+<div class="circle2">
+<div class="circle">
+ <div class="circle1">
+<div class="circle2">
+<div class="circle">
+<div class="circle1">
+<div class="circle2">
+<div class="circle">
+<div class="circle1">
+<div class="circle2">
+<div class="center">demy</div>
+ </div>
+ </div>
+ </div>
+ </div>
+</div>
+</div>
+</div>
+ </div>
+ </div>
+</div>
+ </div>
+ </div>
+</div>
+ </div>
+</div>
+ </div>
+ </div>
+ </div>
+</body>
+
+</html>
